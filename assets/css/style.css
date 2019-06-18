@@ -9,7 +9,7 @@ body {
   color: #777777;
   margin: 0;
   padding: 0;
-  background-image: url(assets/images/paper_3.png);
+  background-image: url(/assets/images/paper_3.png);
 }
 
 header {
@@ -97,7 +97,7 @@ hr {
 
 img {
   max-width: 200px;
-  max-height: auto;
+  max-height: 200px;
   float: left;
 }
 
@@ -115,7 +115,9 @@ footer {
 }
 
 .footer{
+  min-height: 60px;
   vertical-align: bottom;
+  color: white;
 }
 
 /*Contact*/
@@ -168,6 +170,7 @@ input[type=submit]:hover {
   margin-top: 50px;
   top: 50%;
   max-width: 960px;
+  
   
 }
 .column {
