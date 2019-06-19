@@ -28,7 +28,7 @@ header {
   padding: 10px;
   border: 10px;
   margin: 0 auto;
-  width: 100%;
+  width: 75%;
   padding-bottom: 8px;
 }
 
@@ -36,7 +36,7 @@ header {
   max-width: 960px;
   list-style-type: none;
   float: right;
-  margin-right: 22%;
+  margin-right: 0;
 }
 
 .nav-ul-li {
@@ -45,7 +45,6 @@ header {
   padding: 15px;
   margin: 10px;
   color: #777777;
-
 }
 
 .nav-ul-li:hover {
@@ -61,7 +60,7 @@ header {
   display: inline-block;
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 4%;
   transform: translate(-10%, -65%);
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -71,10 +70,10 @@ header {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-bottom: 4%;
+  margin-top: 4%;
   height: auto;
-  top: 50%;
+  top: 4%;
   max-width: 960px;
   background-color: #ffffff;
   border: solid 1px;
@@ -86,7 +85,6 @@ header {
 }
 
 .p-clear {
-
   clear: both;
 }
 
@@ -114,7 +112,7 @@ footer {
   vertical-align: text-bottom;
 }
 
-.footer{
+.footer {
   min-height: 60px;
   vertical-align: bottom;
   color: white;
@@ -147,14 +145,12 @@ input[type=submit]:hover {
 }
 
 .container {
-  
   padding: 5px;
   max-width: 960px;
   background-color: white;
-    margin-bottom: 50px;
+  margin-bottom: 50px;
   margin-top: 50px;
 }
-
 
 /*Portfolio*/
 
@@ -170,9 +166,8 @@ input[type=submit]:hover {
   margin-top: 50px;
   top: 50%;
   max-width: 960px;
-  
-  
 }
+
 .column {
   flex: 50%;
   padding: 0 4px;
@@ -187,16 +182,17 @@ input[type=submit]:hover {
   position: absolute;
   top: 20px;
   left: 20px;
-  background-color:#4aaaa5;
+  background-color: #4aaaa5;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .text-block-2 {
   position: absolute;
   top: 20px;
   left: 240px;
-  background-color:#4aaaa5;
+  background-color: #4aaaa5;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -206,34 +202,37 @@ input[type=submit]:hover {
   position: absolute;
   top: 230px;
   left: 20px;
-  background-color:#4aaaa5;
+  background-color: #4aaaa5;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .text-block-4 {
   position: absolute;
   top: 230px;
   left: 240px;
-  background-color:#4aaaa5;
+  background-color: #4aaaa5;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .text-block-5 {
   position: absolute;
   top: 435px;
   left: 20px;
-  background-color:#4aaaa5;
+  background-color: #4aaaa5;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .text-block-6 {
   position: absolute;
   top: 435px;
   left: 240px;
-  background-color:#4aaaa5;
+  background-color: #4aaaa5;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
